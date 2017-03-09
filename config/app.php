@@ -182,6 +182,10 @@ return [
          */
         Barryvdh\Debugbar\ServiceProvider::class,
 
+        /*
+         * Laravel 5 IDE Helper Generator
+         */
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
     ],
 
     /*
