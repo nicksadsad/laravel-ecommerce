@@ -186,6 +186,11 @@ return [
          * Laravel 5 IDE Helper Generator
          */
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+
+        /*
+        * Acacha AdminLTE template provider
+         */
+        Acacha\AdminLTETemplateLaravel\Providers\AdminLTETemplateServiceProvider::class,
     ],
 
     /*
@@ -235,6 +240,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
+        'AdminLTE' => Acacha\AdminLTETemplateLaravel\Facades\AdminLTE::class,
 
     ],
 
